@@ -17,9 +17,12 @@
     font-size: 1.2rem;
   }
 }
-@media screen and (max-width: 600px) {
+.hamburgerIcon{
+  display: none;
+}
+@media screen and (max-width: 760px) {
  .header a {
-    padding: 0 5rem;
+    padding: 1rem 1rem;
  }
  .header  ul {
     flex-direction: column;
@@ -28,13 +31,23 @@
     width: 100%;
     height: 100vh;
 
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -3;
+
   }
   .header ul  li {
     padding: 1.5rem 0;
+}
+.nav-menue{
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: -3;
+  transition: 0.4s;
+}
+.nav-menue.active{
+  left: 0;
+}
+.hamburgerIcon{
+  display: initial;
 }
 
 }
