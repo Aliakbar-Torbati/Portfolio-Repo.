@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  & ul {
+    display: flex;
+    flex-direction: row;
+  }
+  & li {
+    padding: 0 1rem;
+    list-style-type: none;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+ .header a {
+    padding: 0 5rem;
+ }
+ .header  ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+  }
+  .header ul  li {
+    padding: 1.5rem 0;
+}
+
+}
+
+
