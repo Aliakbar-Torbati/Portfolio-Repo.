@@ -4,15 +4,25 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
-  const [clickNav, setClickNav] = useState(false);
 
+  // make a responsive and collapsible navbar
+  const [clickNav, setClickNav] = useState(false);
   const handleNavbar = () => {
     setClickNav(!clickNav);
   };
-
+  // changing the color of navbar with scrolling
+  const [navbarColor, setNavbarColor] = useState(false);
+  const changeNavbarColor = () => {
+    {
+      window.scrollY >= 1 ? setNavbarColor(true) : setNavbarColor(false);
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
   return (
-    <div className="header">
-      <Link to={"/"}>Portfolio</Link>
+    <div className={navbarColor ? " header header-bg" : "header"}>
+      <Link to={"/"}>
+        <h2>Portfolio</h2>
+      </Link>
       <ul className={clickNav ? "nav-menue active" : "nav-menue"}>
         <li>
           <Link to="/">Home</Link>
