@@ -14,7 +14,6 @@ function ContactForm() {
             <textarea rows="6" placeholder="Type your message here" />
             <button className="btn">Submit</button>
         </form>
-      
     </div>
   )
 }
