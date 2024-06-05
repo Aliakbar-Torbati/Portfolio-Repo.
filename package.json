@@ -6,12 +6,12 @@
   "homepage": "https://aliakbar-torbati.github.io/Portfolio-Repo.",
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "vite",
-    "build": "react-scripts build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
