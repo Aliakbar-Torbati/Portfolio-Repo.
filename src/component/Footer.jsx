@@ -1,6 +1,7 @@
 import "./FooterStyle.scss";
 import { FaHome, FaPhone, FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -21,11 +22,10 @@ function Footer() {
           <p>alitorbati1368@gmail.com</p>
         </div>
         <div className="contact-icons">
-          <a href="www.linkedin.com/in/aliakbar-torbati-juniordeveloper">
-            {" "}
-            <FaLinkedin size={35} style={{ color: "#fff" }} />
-          </a>
-          <FaGithub size={35} style={{ color: "#fff" }} />
+        <a href="https://www.linkedin.com/in/aliakbar-torbati-juniordeveloper" target="_blank"><FaLinkedin size={35} style={{ color: "#fff" }} /></a>   
+        <a href="https://github.com/Aliakbar-Torbati?tab=repositories" target="_blank"><FaGithub size={35} style={{ color: "#fff" }} /></a>          
+       
+          
         </div>
       </div>
     </div>
