@@ -9,7 +9,7 @@ function Footer() {
       <div className="contact-footer">
         <div className="location">
           <FaHome size={22} style={{ color: "#fff" }} />
-          <p>Dusseldorf, Germany</p>
+          <p>Duisburg, Germany</p>
         </div>
         <div className="location">
           <FaPhone size={18} style={{ color: "#fff" }} />
