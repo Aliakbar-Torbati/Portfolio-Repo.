@@ -22,7 +22,7 @@ function Footer() {
         </div>
         <div className="contact-icons">
         <a href="https://www.linkedin.com/in/aliakbar-torbati-juniordeveloper" target="_blank"><FaLinkedin size={35} style={{ color: "#fff" }} /></a>   
-        <a href="../../public/AliakbarTorbatiCV.pdf" download="My-CV.pdf"><FaRegAddressCard  size={36} style={{ color: "#fff" }} /></a>  
+        <a href="././public/AliakbarTorbatiCV.pdf" download="My-CV.pdf"><FaRegAddressCard  size={36} style={{ color: "#fff" }} /></a>  
         <a href="https://github.com/Aliakbar-Torbati?tab=repositories" target="_blank"><FaGithub size={35} style={{ color: "#fff" }} /></a>          
         
        
