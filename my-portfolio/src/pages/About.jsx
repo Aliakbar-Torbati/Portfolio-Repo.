@@ -1,9 +1,15 @@
-import React from 'react'
+import Navbar from '../component/Navbar'
+import Footer from '../component/Footer'
+import Intro2 from '../component/Intro2'
+import AboutContent from '../component/AboutContent'
 
 const About = () => {
   return (
     <div>
-      about page
+      <Navbar />
+      <Intro2 heading="About me" text="I am an Enthusiastic Web Developer." />
+      <AboutContent />
+      <Footer />
     </div>
   )
 }
