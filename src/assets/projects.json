@@ -1,5 +1,12 @@
 [
   {
+    "title": "Weather Watcher Application",
+    "image":"https://i.postimg.cc/RF31MDwC/project4.jpg",
+    "description": "Weather Watcher is a modern application built with React and JavaScript technologies to provide users with customized weather alerts. This app allows users to view current weather conditions, hourly forecasts in their chosen city. Weather Watcher is designed to keep users informed about real-time weather updates, offering features such as customizable weather alerts, temperature thresholds, and severe weather notifications. Backend: - Integrated with Firebase for user authentication and data management.",
+    "viewLink":"https://myweatherwatcher.netlify.app/",
+    "source":"https://github.com/Aliakbar-Torbati/WeatherWatcherFront"
+  },
+  {
     "title": "Expense Tracker Website",
     "image":"https://front-cdn.mobiroller.com/wp-content/uploads/MR-011116-reklamla-para-kazanma-300.jpg",
     "description": "An application with JavaScript technologies to facilitate the creation of full-stack web applications (MERN Stack). Users can simply manage their finances with this application. They can effortlessly record their expenses, incomes, and other financial transactions, enabling them to maintain a clear overview of their financial standing and make informed decisions. Backend : - User Authentication (OAuth 2.0 Access/ Refresh Tokens )",
